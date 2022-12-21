@@ -46,11 +46,11 @@ class Ui(QMainWindow):
         if self.hour.isChecked():
 
             try:
-                while True:
+
                     # Start the file here
 
                     # Pause the program for 3 hours (3 * 60 * 60 seconds)
-                    sleep_time = (int(float(self.info.toPlaintext() * 60 * 60)))
+                    sleep_time = int(float(self.info.toPlainText())) * 60 * 60
                     t1 = threading.Thread(target=self.sleep, args=(sleep_time, fileName[0]))
                     t1.start()
 

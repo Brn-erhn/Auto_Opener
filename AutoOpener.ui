@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>Auto Opener</string>
   </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>flat,750x,075,f-pad,750x1000,f8f8f8.jpg</normaloff>flat,750x,075,f-pad,750x1000,f8f8f8.jpg</iconset>
+  </property>
   <property name="styleSheet">
    <string notr="true">QToolTip
 {
